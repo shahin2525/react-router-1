@@ -4,7 +4,7 @@ import Header from "../Header/Header";
 
 const Home = () => {
   return (
-    <div>
+    <div className="text-center mt-4">
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
